@@ -219,14 +219,35 @@ td {
     }
 
     .signupform__form-group:first-child,
-    .blogsearch__form-group:first-child,
-    .ecomproductslist__form-group:first-child {
+    .blogsearch__form-group:first-child {
         -ms-flex: 0 11 100%;
         -webkit-flex: 0 11 100%;
         flex: 0 11 100%;
         -webkit-align-self: auto;
         -ms-flex-item-align: auto;
         align-self: auto;
+    }
+
+    .ecomproductslist__form-group {
+        margin-bottom: 0;
+    }
+
+    .fieldset--search .form-group:first-child {
+        -ms-flex: 1 1 auto;
+        -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+        -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+        align-self: flex-start;
+    }
+
+    .fieldset--search .form-group:last-child {
+        -ms-flex: 0 1 auto;
+        -webkit-flex: 0 1 auto;
+        flex: 0 1 auto;
+        -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+        align-self: flex-start;
     }
 
     .form .button {
@@ -344,6 +365,9 @@ td {
         text-align: center;
         font-weight: 400;
         background-color: @color-swatch1;
+    }
+    .fieldset--search .label {
+        display: none;
     }
     .fieldset--search .form-body {
         padding: 30px 30px 15px;
