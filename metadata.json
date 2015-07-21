@@ -2,7 +2,7 @@
     "name": "action",
     "widgetVersion":2,
     "thumbnail": "thumbnail.png",
-    "screenshot": "thumbnail.png",
+    "screenshot": "screenshot.jpg",
     "templateType":"standard",
     "pageTypes": ["home"],
     "tags": {
